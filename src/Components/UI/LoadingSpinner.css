@@ -1,0 +1,15 @@
+.loading-spinner {
+  height: 40px;
+  width: 40px;
+  border: 7px solid grey;
+  border-radius: 50%;
+  border-top-color: lightskyblue;
+  animation: loading 1.5s infinite;
+  z-index: 5;
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(360deg);
+  }
+}
